@@ -2,7 +2,7 @@ import React from 'react'
 import AddTodo from './components/AddTodo'
 import './App.css'
 import { useSelector } from 'react-redux'
-import Todos from './components/todos'
+import Todos from './components/Todos'
 
 function App() {
   const todos = useSelector(state => state.todos)
